@@ -7,15 +7,11 @@ public class MakeAvg {
         int a = sc.nextInt();
         System.out.println("Input value of C: ");
         int c = sc.nextInt();
-        int avg = (a+c)/2;
-        if(sc.hasNextInt())
+        double b = (a+c)/2.0;
+        if(b == (int)b)
         {
-            System.out.println("Input value of B: ");
-            int b = sc.nextInt();
-            if(b == avg)
-            {
-                System.out.println("B is an integer and B = avg of A and C.");
-            }
+            System.out.println("B is an integer and the value of B is equal to the avg. of A & C.");
+            System.out.println("B = " + b);
         }
         else
             System.out.println("B is not an integer.");
