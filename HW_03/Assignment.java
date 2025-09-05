@@ -11,7 +11,7 @@ public class Assignment {
             System.out.println("You will finish all assignments on time!");
         }
         else
-            System.out.println("You will not finish all assignments before 10 PM.");
+            System.out.println("You can't finish all assignments before 10 PM.");
        
     }
 }
